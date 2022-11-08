@@ -25,6 +25,1781 @@ namespace WeatherAppLJH.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_fade_in = global::WeatherAppLJH.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_fade_out = global::WeatherAppLJH.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::WeatherAppLJH.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_popup_enter = global::WeatherAppLJH.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_popup_exit = global::WeatherAppLJH.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::WeatherAppLJH.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_slide_in_bottom = global::WeatherAppLJH.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_slide_in_top = global::WeatherAppLJH.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_slide_out_bottom = global::WeatherAppLJH.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.abc_slide_out_top = global::WeatherAppLJH.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::WeatherAppLJH.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::WeatherAppLJH.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.design_snackbar_in = global::WeatherAppLJH.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animation.design_snackbar_out = global::WeatherAppLJH.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Svg.Droid.Resource.Animator.design_appbar_state_list_animator = global::WeatherAppLJH.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarDivider = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarItemBackground = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarPopupTheme = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarSize = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarSplitStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarTabBarStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarTabStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarTabTextStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarTheme = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionBarWidgetTheme = global::WeatherAppLJH.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionDropDownStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionLayout = global::WeatherAppLJH.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionMenuTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionMenuTextColor = global::WeatherAppLJH.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeBackground = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeCloseDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeCopyDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeCutDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeFindDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModePasteDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModePopupWindowStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeShareDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeSplitBackground = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionOverflowButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionOverflowMenuStyle = global::WeatherAppLJH.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionProviderClass = global::WeatherAppLJH.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.actionViewClass = global::WeatherAppLJH.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.activityChooserViewStyle = global::WeatherAppLJH.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::WeatherAppLJH.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.alertDialogCenterButtons = global::WeatherAppLJH.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.alertDialogStyle = global::WeatherAppLJH.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.alertDialogTheme = global::WeatherAppLJH.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.allowStacking = global::WeatherAppLJH.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.alpha = global::WeatherAppLJH.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.arrowHeadLength = global::WeatherAppLJH.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.arrowShaftLength = global::WeatherAppLJH.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::WeatherAppLJH.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.background = global::WeatherAppLJH.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.backgroundSplit = global::WeatherAppLJH.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.backgroundStacked = global::WeatherAppLJH.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.backgroundTint = global::WeatherAppLJH.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.backgroundTintMode = global::WeatherAppLJH.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.barLength = global::WeatherAppLJH.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.behavior_autoHide = global::WeatherAppLJH.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.behavior_hideable = global::WeatherAppLJH.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.behavior_overlapTop = global::WeatherAppLJH.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.behavior_peekHeight = global::WeatherAppLJH.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.behavior_skipCollapsed = global::WeatherAppLJH.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.borderWidth = global::WeatherAppLJH.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.borderlessButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.bottomSheetDialogTheme = global::WeatherAppLJH.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.bottomSheetStyle = global::WeatherAppLJH.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonBarButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonBarStyle = global::WeatherAppLJH.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonGravity = global::WeatherAppLJH.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonPanelSideLayout = global::WeatherAppLJH.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonStyleSmall = global::WeatherAppLJH.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonTint = global::WeatherAppLJH.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.buttonTintMode = global::WeatherAppLJH.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.cardBackgroundColor = global::WeatherAppLJH.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.cardCornerRadius = global::WeatherAppLJH.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.cardElevation = global::WeatherAppLJH.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.cardMaxElevation = global::WeatherAppLJH.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.cardPreventCornerOverlap = global::WeatherAppLJH.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.cardUseCompatPadding = global::WeatherAppLJH.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.checkboxStyle = global::WeatherAppLJH.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.checkedTextViewStyle = global::WeatherAppLJH.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.closeIcon = global::WeatherAppLJH.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.closeItemLayout = global::WeatherAppLJH.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.collapseContentDescription = global::WeatherAppLJH.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.collapseIcon = global::WeatherAppLJH.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.collapsedTitleGravity = global::WeatherAppLJH.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.color = global::WeatherAppLJH.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorAccent = global::WeatherAppLJH.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorBackgroundFloating = global::WeatherAppLJH.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorButtonNormal = global::WeatherAppLJH.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorControlActivated = global::WeatherAppLJH.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorControlHighlight = global::WeatherAppLJH.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorControlNormal = global::WeatherAppLJH.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorPrimary = global::WeatherAppLJH.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorPrimaryDark = global::WeatherAppLJH.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.colorSwitchThumbNormal = global::WeatherAppLJH.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.commitIcon = global::WeatherAppLJH.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentInsetEnd = global::WeatherAppLJH.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentInsetEndWithActions = global::WeatherAppLJH.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentInsetLeft = global::WeatherAppLJH.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentInsetRight = global::WeatherAppLJH.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentInsetStart = global::WeatherAppLJH.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::WeatherAppLJH.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentPadding = global::WeatherAppLJH.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentPaddingBottom = global::WeatherAppLJH.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentPaddingLeft = global::WeatherAppLJH.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentPaddingRight = global::WeatherAppLJH.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentPaddingTop = global::WeatherAppLJH.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.contentScrim = global::WeatherAppLJH.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.controlBackground = global::WeatherAppLJH.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.counterEnabled = global::WeatherAppLJH.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.counterMaxLength = global::WeatherAppLJH.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.counterOverflowTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.counterTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.customNavigationLayout = global::WeatherAppLJH.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.defaultQueryHint = global::WeatherAppLJH.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.dialogPreferredPadding = global::WeatherAppLJH.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.dialogTheme = global::WeatherAppLJH.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.displayOptions = global::WeatherAppLJH.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.divider = global::WeatherAppLJH.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.dividerHorizontal = global::WeatherAppLJH.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.dividerPadding = global::WeatherAppLJH.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.dividerVertical = global::WeatherAppLJH.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.drawableSize = global::WeatherAppLJH.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.drawerArrowStyle = global::WeatherAppLJH.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.dropDownListViewStyle = global::WeatherAppLJH.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::WeatherAppLJH.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.editTextBackground = global::WeatherAppLJH.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.editTextColor = global::WeatherAppLJH.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.editTextStyle = global::WeatherAppLJH.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.elevation = global::WeatherAppLJH.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.errorEnabled = global::WeatherAppLJH.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.errorTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expanded = global::WeatherAppLJH.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandedTitleGravity = global::WeatherAppLJH.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandedTitleMargin = global::WeatherAppLJH.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandedTitleMarginBottom = global::WeatherAppLJH.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandedTitleMarginEnd = global::WeatherAppLJH.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandedTitleMarginStart = global::WeatherAppLJH.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandedTitleMarginTop = global::WeatherAppLJH.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.expandedTitleTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.fabSize = global::WeatherAppLJH.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.foregroundInsidePadding = global::WeatherAppLJH.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.gapBetweenBars = global::WeatherAppLJH.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.goIcon = global::WeatherAppLJH.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.headerLayout = global::WeatherAppLJH.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.height = global::WeatherAppLJH.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.hideOnContentScroll = global::WeatherAppLJH.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.hintAnimationEnabled = global::WeatherAppLJH.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.hintEnabled = global::WeatherAppLJH.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.hintTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.homeAsUpIndicator = global::WeatherAppLJH.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.homeLayout = global::WeatherAppLJH.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.icon = global::WeatherAppLJH.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.iconifiedByDefault = global::WeatherAppLJH.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.imageButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.indeterminateProgressStyle = global::WeatherAppLJH.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.initialActivityCount = global::WeatherAppLJH.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.insetForeground = global::WeatherAppLJH.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.isLightTheme = global::WeatherAppLJH.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.itemBackground = global::WeatherAppLJH.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.itemIconTint = global::WeatherAppLJH.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.itemPadding = global::WeatherAppLJH.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.itemTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.itemTextColor = global::WeatherAppLJH.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.keylines = global::WeatherAppLJH.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout = global::WeatherAppLJH.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layoutManager = global::WeatherAppLJH.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_anchor = global::WeatherAppLJH.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_anchorGravity = global::WeatherAppLJH.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_behavior = global::WeatherAppLJH.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_collapseMode = global::WeatherAppLJH.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::WeatherAppLJH.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::WeatherAppLJH.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_insetEdge = global::WeatherAppLJH.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_keyline = global::WeatherAppLJH.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_scrollFlags = global::WeatherAppLJH.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.layout_scrollInterpolator = global::WeatherAppLJH.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::WeatherAppLJH.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listDividerAlertDialog = global::WeatherAppLJH.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listItemLayout = global::WeatherAppLJH.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listLayout = global::WeatherAppLJH.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listMenuViewStyle = global::WeatherAppLJH.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listPopupWindowStyle = global::WeatherAppLJH.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listPreferredItemHeight = global::WeatherAppLJH.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::WeatherAppLJH.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::WeatherAppLJH.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::WeatherAppLJH.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::WeatherAppLJH.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.logo = global::WeatherAppLJH.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.logoDescription = global::WeatherAppLJH.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.maxActionInlineWidth = global::WeatherAppLJH.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.maxButtonHeight = global::WeatherAppLJH.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.measureWithLargestChild = global::WeatherAppLJH.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.menu = global::WeatherAppLJH.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.multiChoiceItemLayout = global::WeatherAppLJH.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.navigationContentDescription = global::WeatherAppLJH.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.navigationIcon = global::WeatherAppLJH.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.navigationMode = global::WeatherAppLJH.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.overlapAnchor = global::WeatherAppLJH.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.paddingBottomNoButtons = global::WeatherAppLJH.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.paddingEnd = global::WeatherAppLJH.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.paddingStart = global::WeatherAppLJH.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.paddingTopNoTitle = global::WeatherAppLJH.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.panelBackground = global::WeatherAppLJH.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.panelMenuListTheme = global::WeatherAppLJH.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.panelMenuListWidth = global::WeatherAppLJH.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.passwordToggleContentDescription = global::WeatherAppLJH.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.passwordToggleDrawable = global::WeatherAppLJH.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.passwordToggleEnabled = global::WeatherAppLJH.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.passwordToggleTint = global::WeatherAppLJH.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.passwordToggleTintMode = global::WeatherAppLJH.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.popupMenuStyle = global::WeatherAppLJH.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.popupTheme = global::WeatherAppLJH.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.popupWindowStyle = global::WeatherAppLJH.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.preserveIconSpacing = global::WeatherAppLJH.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.pressedTranslationZ = global::WeatherAppLJH.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.progressBarPadding = global::WeatherAppLJH.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.progressBarStyle = global::WeatherAppLJH.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.queryBackground = global::WeatherAppLJH.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.queryHint = global::WeatherAppLJH.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.radioButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.ratingBarStyle = global::WeatherAppLJH.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.ratingBarStyleIndicator = global::WeatherAppLJH.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.ratingBarStyleSmall = global::WeatherAppLJH.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.reverseLayout = global::WeatherAppLJH.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.rippleColor = global::WeatherAppLJH.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.scrimAnimationDuration = global::WeatherAppLJH.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::WeatherAppLJH.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.searchHintIcon = global::WeatherAppLJH.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.searchIcon = global::WeatherAppLJH.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.searchViewStyle = global::WeatherAppLJH.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.seekBarStyle = global::WeatherAppLJH.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.selectableItemBackground = global::WeatherAppLJH.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::WeatherAppLJH.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.showAsAction = global::WeatherAppLJH.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.showDividers = global::WeatherAppLJH.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.showText = global::WeatherAppLJH.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.showTitle = global::WeatherAppLJH.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.singleChoiceItemLayout = global::WeatherAppLJH.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.spanCount = global::WeatherAppLJH.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.spinBars = global::WeatherAppLJH.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::WeatherAppLJH.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.spinnerStyle = global::WeatherAppLJH.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.splitTrack = global::WeatherAppLJH.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.srcCompat = global::WeatherAppLJH.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.stackFromEnd = global::WeatherAppLJH.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.state_above_anchor = global::WeatherAppLJH.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.state_collapsed = global::WeatherAppLJH.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.state_collapsible = global::WeatherAppLJH.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.statusBarBackground = global::WeatherAppLJH.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.statusBarScrim = global::WeatherAppLJH.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.subMenuArrow = global::WeatherAppLJH.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.submitBackground = global::WeatherAppLJH.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.subtitle = global::WeatherAppLJH.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.subtitleTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.subtitleTextColor = global::WeatherAppLJH.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.subtitleTextStyle = global::WeatherAppLJH.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.suggestionRowLayout = global::WeatherAppLJH.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.switchMinWidth = global::WeatherAppLJH.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.switchPadding = global::WeatherAppLJH.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.switchStyle = global::WeatherAppLJH.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.switchTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabBackground = global::WeatherAppLJH.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabContentStart = global::WeatherAppLJH.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabGravity = global::WeatherAppLJH.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabIndicatorColor = global::WeatherAppLJH.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabIndicatorHeight = global::WeatherAppLJH.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabMaxWidth = global::WeatherAppLJH.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabMinWidth = global::WeatherAppLJH.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabMode = global::WeatherAppLJH.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabPadding = global::WeatherAppLJH.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabPaddingBottom = global::WeatherAppLJH.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabPaddingEnd = global::WeatherAppLJH.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabPaddingStart = global::WeatherAppLJH.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabPaddingTop = global::WeatherAppLJH.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabSelectedTextColor = global::WeatherAppLJH.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tabTextColor = global::WeatherAppLJH.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAllCaps = global::WeatherAppLJH.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearanceListItem = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearanceListItemSmall = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::WeatherAppLJH.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textColorAlertDialogListItem = global::WeatherAppLJH.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.textColorSearchUrl = global::WeatherAppLJH.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.theme = global::WeatherAppLJH.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.thickness = global::WeatherAppLJH.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.thumbTextPadding = global::WeatherAppLJH.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.thumbTint = global::WeatherAppLJH.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.thumbTintMode = global::WeatherAppLJH.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tickMark = global::WeatherAppLJH.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tickMarkTint = global::WeatherAppLJH.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tickMarkTintMode = global::WeatherAppLJH.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tint = global::WeatherAppLJH.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.tintMode = global::WeatherAppLJH.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.title = global::WeatherAppLJH.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleEnabled = global::WeatherAppLJH.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleMargin = global::WeatherAppLJH.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleMarginBottom = global::WeatherAppLJH.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleMarginEnd = global::WeatherAppLJH.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleMarginStart = global::WeatherAppLJH.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleMarginTop = global::WeatherAppLJH.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleMargins = global::WeatherAppLJH.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleTextAppearance = global::WeatherAppLJH.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleTextColor = global::WeatherAppLJH.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.titleTextStyle = global::WeatherAppLJH.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.toolbarId = global::WeatherAppLJH.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::WeatherAppLJH.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.toolbarStyle = global::WeatherAppLJH.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.track = global::WeatherAppLJH.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.trackTint = global::WeatherAppLJH.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.trackTintMode = global::WeatherAppLJH.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.useCompatPadding = global::WeatherAppLJH.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.voiceIcon = global::WeatherAppLJH.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowActionBar = global::WeatherAppLJH.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowActionBarOverlay = global::WeatherAppLJH.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowActionModeOverlay = global::WeatherAppLJH.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowFixedHeightMajor = global::WeatherAppLJH.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowFixedHeightMinor = global::WeatherAppLJH.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowFixedWidthMajor = global::WeatherAppLJH.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowFixedWidthMinor = global::WeatherAppLJH.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowMinWidthMajor = global::WeatherAppLJH.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowMinWidthMinor = global::WeatherAppLJH.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Attribute.windowNoTitle = global::WeatherAppLJH.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::WeatherAppLJH.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.Svg.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::WeatherAppLJH.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::WeatherAppLJH.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::WeatherAppLJH.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::WeatherAppLJH.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_btn_colored_text_material = global::WeatherAppLJH.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_color_highlight_material = global::WeatherAppLJH.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_hint_foreground_material_dark = global::WeatherAppLJH.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_hint_foreground_material_light = global::WeatherAppLJH.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::WeatherAppLJH.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::WeatherAppLJH.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_primary_text_material_dark = global::WeatherAppLJH.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_primary_text_material_light = global::WeatherAppLJH.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_search_url_text = global::WeatherAppLJH.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_search_url_text_normal = global::WeatherAppLJH.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_search_url_text_pressed = global::WeatherAppLJH.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_search_url_text_selected = global::WeatherAppLJH.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_secondary_text_material_dark = global::WeatherAppLJH.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_secondary_text_material_light = global::WeatherAppLJH.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_tint_btn_checkable = global::WeatherAppLJH.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_tint_default = global::WeatherAppLJH.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_tint_edittext = global::WeatherAppLJH.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_tint_seek_thumb = global::WeatherAppLJH.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_tint_spinner = global::WeatherAppLJH.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.abc_tint_switch_track = global::WeatherAppLJH.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.accent_material_dark = global::WeatherAppLJH.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.accent_material_light = global::WeatherAppLJH.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.background_floating_material_dark = global::WeatherAppLJH.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.background_floating_material_light = global::WeatherAppLJH.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.background_material_dark = global::WeatherAppLJH.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.background_material_light = global::WeatherAppLJH.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::WeatherAppLJH.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.bright_foreground_disabled_material_light = global::WeatherAppLJH.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::WeatherAppLJH.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.bright_foreground_inverse_material_light = global::WeatherAppLJH.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.bright_foreground_material_dark = global::WeatherAppLJH.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.bright_foreground_material_light = global::WeatherAppLJH.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.button_material_dark = global::WeatherAppLJH.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.button_material_light = global::WeatherAppLJH.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.cardview_dark_background = global::WeatherAppLJH.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.cardview_light_background = global::WeatherAppLJH.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.cardview_shadow_end_color = global::WeatherAppLJH.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.cardview_shadow_start_color = global::WeatherAppLJH.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::WeatherAppLJH.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_error = global::WeatherAppLJH.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_fab_shadow_end_color = global::WeatherAppLJH.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_fab_shadow_mid_color = global::WeatherAppLJH.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_fab_shadow_start_color = global::WeatherAppLJH.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::WeatherAppLJH.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::WeatherAppLJH.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::WeatherAppLJH.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::WeatherAppLJH.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.design_snackbar_background_color = global::WeatherAppLJH.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::WeatherAppLJH.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.dim_foreground_disabled_material_light = global::WeatherAppLJH.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.dim_foreground_material_dark = global::WeatherAppLJH.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.dim_foreground_material_light = global::WeatherAppLJH.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.foreground_material_dark = global::WeatherAppLJH.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.foreground_material_light = global::WeatherAppLJH.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.highlighted_text_material_dark = global::WeatherAppLJH.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.highlighted_text_material_light = global::WeatherAppLJH.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_blue_grey_800 = global::WeatherAppLJH.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_blue_grey_900 = global::WeatherAppLJH.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_blue_grey_950 = global::WeatherAppLJH.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_deep_teal_200 = global::WeatherAppLJH.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_deep_teal_500 = global::WeatherAppLJH.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_grey_100 = global::WeatherAppLJH.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_grey_300 = global::WeatherAppLJH.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_grey_50 = global::WeatherAppLJH.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_grey_600 = global::WeatherAppLJH.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_grey_800 = global::WeatherAppLJH.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_grey_850 = global::WeatherAppLJH.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.material_grey_900 = global::WeatherAppLJH.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.notification_action_color_filter = global::WeatherAppLJH.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.notification_icon_bg_color = global::WeatherAppLJH.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.notification_material_background_media_default_color = global::WeatherAppLJH.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_dark_material_dark = global::WeatherAppLJH.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_dark_material_light = global::WeatherAppLJH.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_material_dark = global::WeatherAppLJH.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_material_light = global::WeatherAppLJH.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_text_default_material_dark = global::WeatherAppLJH.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_text_default_material_light = global::WeatherAppLJH.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_text_disabled_material_dark = global::WeatherAppLJH.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.primary_text_disabled_material_light = global::WeatherAppLJH.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.ripple_material_dark = global::WeatherAppLJH.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.ripple_material_light = global::WeatherAppLJH.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.secondary_text_default_material_dark = global::WeatherAppLJH.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.secondary_text_default_material_light = global::WeatherAppLJH.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.secondary_text_disabled_material_dark = global::WeatherAppLJH.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.secondary_text_disabled_material_light = global::WeatherAppLJH.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::WeatherAppLJH.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.switch_thumb_disabled_material_light = global::WeatherAppLJH.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.switch_thumb_material_dark = global::WeatherAppLJH.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.switch_thumb_material_light = global::WeatherAppLJH.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.switch_thumb_normal_material_dark = global::WeatherAppLJH.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Color.switch_thumb_normal_material_light = global::WeatherAppLJH.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_button_min_height_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_button_min_width_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::WeatherAppLJH.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::WeatherAppLJH.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::WeatherAppLJH.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_control_corner_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_control_inset_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_control_padding_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_min_width_major = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_padding_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::WeatherAppLJH.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::WeatherAppLJH.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::WeatherAppLJH.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_floating_window_z = global::WeatherAppLJH.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_panel_menu_list_width = global::WeatherAppLJH.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_progress_bar_height_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_search_view_preferred_height = global::WeatherAppLJH.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_search_view_preferred_width = global::WeatherAppLJH.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_switch_padding = global::WeatherAppLJH.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_body_1_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_body_2_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_button_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_caption_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_display_1_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_display_2_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_display_3_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_display_4_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_headline_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_large_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_medium_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_menu_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_small_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_subhead_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_title_material = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::WeatherAppLJH.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::WeatherAppLJH.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.cardview_default_elevation = global::WeatherAppLJH.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.cardview_default_radius = global::WeatherAppLJH.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_appbar_elevation = global::WeatherAppLJH.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_height = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_margin = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::WeatherAppLJH.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_fab_border_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_fab_elevation = global::WeatherAppLJH.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_fab_image_size = global::WeatherAppLJH.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_fab_size_mini = global::WeatherAppLJH.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_fab_size_normal = global::WeatherAppLJH.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::WeatherAppLJH.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_navigation_elevation = global::WeatherAppLJH.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_navigation_icon_padding = global::WeatherAppLJH.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_navigation_icon_size = global::WeatherAppLJH.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_navigation_max_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_navigation_padding_bottom = global::WeatherAppLJH.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::WeatherAppLJH.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_elevation = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_max_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_min_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_snackbar_text_size = global::WeatherAppLJH.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_tab_max_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::WeatherAppLJH.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_tab_text_size = global::WeatherAppLJH.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.design_tab_text_size_2line = global::WeatherAppLJH.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.disabled_alpha_material_dark = global::WeatherAppLJH.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.disabled_alpha_material_light = global::WeatherAppLJH.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.highlight_alpha_material_colored = global::WeatherAppLJH.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.highlight_alpha_material_dark = global::WeatherAppLJH.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.highlight_alpha_material_light = global::WeatherAppLJH.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.hint_alpha_material_dark = global::WeatherAppLJH.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.hint_alpha_material_light = global::WeatherAppLJH.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::WeatherAppLJH.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::WeatherAppLJH.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::WeatherAppLJH.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::WeatherAppLJH.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::WeatherAppLJH.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_action_icon_size = global::WeatherAppLJH.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_action_text_size = global::WeatherAppLJH.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_big_circle_margin = global::WeatherAppLJH.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_content_margin_start = global::WeatherAppLJH.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_large_icon_height = global::WeatherAppLJH.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_large_icon_width = global::WeatherAppLJH.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_main_column_padding_top = global::WeatherAppLJH.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_media_narrow_margin = global::WeatherAppLJH.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_right_icon_size = global::WeatherAppLJH.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_right_side_padding_top = global::WeatherAppLJH.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_small_icon_background_padding = global::WeatherAppLJH.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::WeatherAppLJH.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_subtext_size = global::WeatherAppLJH.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_top_pad = global::WeatherAppLJH.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.Svg.Droid.Resource.Dimension.notification_top_pad_large_text = global::WeatherAppLJH.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_borderless_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_check_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_colored_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_radio_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::WeatherAppLJH.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_cab_background_top_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_control_background_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_dialog_material_background = global::WeatherAppLJH.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_edit_text_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_ab_back_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_clear_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_search_api_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_item_background_holo_dark = global::WeatherAppLJH.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_item_background_holo_light = global::WeatherAppLJH.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_focused_holo = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_longpressed_holo = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_list_selector_holo_light = global::WeatherAppLJH.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::WeatherAppLJH.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::WeatherAppLJH.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ratingbar_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_ratingbar_small_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::WeatherAppLJH.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_seekbar_track_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_switch_thumb_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_tab_indicator_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_text_cursor_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::WeatherAppLJH.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_textfield_search_material = global::WeatherAppLJH.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.abc_vector_test = global::WeatherAppLJH.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.avd_hide_password = global::WeatherAppLJH.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.avd_show_password = global::WeatherAppLJH.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.design_fab_background = global::WeatherAppLJH.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.design_ic_visibility = global::WeatherAppLJH.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.design_ic_visibility_off = global::WeatherAppLJH.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.design_password_eye = global::WeatherAppLJH.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.design_snackbar_background = global::WeatherAppLJH.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.navigation_empty_icon = global::WeatherAppLJH.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_action_background = global::WeatherAppLJH.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_bg = global::WeatherAppLJH.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_bg_low = global::WeatherAppLJH.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_bg_low_normal = global::WeatherAppLJH.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_bg_low_pressed = global::WeatherAppLJH.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_bg_normal = global::WeatherAppLJH.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_bg_normal_pressed = global::WeatherAppLJH.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_icon_background = global::WeatherAppLJH.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_template_icon_bg = global::WeatherAppLJH.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_template_icon_low_bg = global::WeatherAppLJH.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notification_tile_bg = global::WeatherAppLJH.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.Svg.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::WeatherAppLJH.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action0 = global::WeatherAppLJH.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_bar = global::WeatherAppLJH.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_bar_activity_content = global::WeatherAppLJH.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_bar_container = global::WeatherAppLJH.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_bar_root = global::WeatherAppLJH.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_bar_spinner = global::WeatherAppLJH.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_bar_subtitle = global::WeatherAppLJH.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_bar_title = global::WeatherAppLJH.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_container = global::WeatherAppLJH.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_context_bar = global::WeatherAppLJH.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_divider = global::WeatherAppLJH.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_image = global::WeatherAppLJH.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_menu_divider = global::WeatherAppLJH.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_menu_presenter = global::WeatherAppLJH.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_mode_bar = global::WeatherAppLJH.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_mode_bar_stub = global::WeatherAppLJH.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_mode_close_button = global::WeatherAppLJH.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.action_text = global::WeatherAppLJH.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.actions = global::WeatherAppLJH.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.activity_chooser_view_content = global::WeatherAppLJH.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.add = global::WeatherAppLJH.Droid.Resource.Id.add;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.alertTitle = global::WeatherAppLJH.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.all = global::WeatherAppLJH.Droid.Resource.Id.all;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.always = global::WeatherAppLJH.Droid.Resource.Id.always;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.auto = global::WeatherAppLJH.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.beginning = global::WeatherAppLJH.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.bottom = global::WeatherAppLJH.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.buttonPanel = global::WeatherAppLJH.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.cancel_action = global::WeatherAppLJH.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.center = global::WeatherAppLJH.Droid.Resource.Id.center;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.center_horizontal = global::WeatherAppLJH.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.center_vertical = global::WeatherAppLJH.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.checkbox = global::WeatherAppLJH.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.chronometer = global::WeatherAppLJH.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.clip_horizontal = global::WeatherAppLJH.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.clip_vertical = global::WeatherAppLJH.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.collapseActionView = global::WeatherAppLJH.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.container = global::WeatherAppLJH.Droid.Resource.Id.container;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.contentPanel = global::WeatherAppLJH.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.coordinator = global::WeatherAppLJH.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.custom = global::WeatherAppLJH.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.customPanel = global::WeatherAppLJH.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.decor_content_parent = global::WeatherAppLJH.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.default_activity_button = global::WeatherAppLJH.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.design_bottom_sheet = global::WeatherAppLJH.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.design_menu_item_action_area = global::WeatherAppLJH.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.design_menu_item_action_area_stub = global::WeatherAppLJH.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.design_menu_item_text = global::WeatherAppLJH.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.design_navigation_view = global::WeatherAppLJH.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.disableHome = global::WeatherAppLJH.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.edit_query = global::WeatherAppLJH.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.end = global::WeatherAppLJH.Droid.Resource.Id.end;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.end_padder = global::WeatherAppLJH.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.enterAlways = global::WeatherAppLJH.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.enterAlwaysCollapsed = global::WeatherAppLJH.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.exitUntilCollapsed = global::WeatherAppLJH.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.expand_activities_button = global::WeatherAppLJH.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.expanded_menu = global::WeatherAppLJH.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.fill = global::WeatherAppLJH.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.fill_horizontal = global::WeatherAppLJH.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.fill_vertical = global::WeatherAppLJH.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.@fixed = global::WeatherAppLJH.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.home = global::WeatherAppLJH.Droid.Resource.Id.home;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.homeAsUp = global::WeatherAppLJH.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.icon = global::WeatherAppLJH.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.icon_group = global::WeatherAppLJH.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.ifRoom = global::WeatherAppLJH.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.image = global::WeatherAppLJH.Droid.Resource.Id.image;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.info = global::WeatherAppLJH.Droid.Resource.Id.info;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.item_touch_helper_previous_elevation = global::WeatherAppLJH.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.left = global::WeatherAppLJH.Droid.Resource.Id.left;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.line1 = global::WeatherAppLJH.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.line3 = global::WeatherAppLJH.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.listMode = global::WeatherAppLJH.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.list_item = global::WeatherAppLJH.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.masked = global::WeatherAppLJH.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.media_actions = global::WeatherAppLJH.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.middle = global::WeatherAppLJH.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.mini = global::WeatherAppLJH.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.multiply = global::WeatherAppLJH.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.navigation_header_container = global::WeatherAppLJH.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.never = global::WeatherAppLJH.Droid.Resource.Id.never;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.none = global::WeatherAppLJH.Droid.Resource.Id.none;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.normal = global::WeatherAppLJH.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.notification_background = global::WeatherAppLJH.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.notification_main_column = global::WeatherAppLJH.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.notification_main_column_container = global::WeatherAppLJH.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.parallax = global::WeatherAppLJH.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.parentPanel = global::WeatherAppLJH.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.pin = global::WeatherAppLJH.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.progress_circular = global::WeatherAppLJH.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.progress_horizontal = global::WeatherAppLJH.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.radio = global::WeatherAppLJH.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.right = global::WeatherAppLJH.Droid.Resource.Id.right;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.right_icon = global::WeatherAppLJH.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.right_side = global::WeatherAppLJH.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.screen = global::WeatherAppLJH.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.scroll = global::WeatherAppLJH.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.scrollIndicatorDown = global::WeatherAppLJH.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.scrollIndicatorUp = global::WeatherAppLJH.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.scrollView = global::WeatherAppLJH.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.scrollable = global::WeatherAppLJH.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_badge = global::WeatherAppLJH.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_bar = global::WeatherAppLJH.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_button = global::WeatherAppLJH.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_close_btn = global::WeatherAppLJH.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_edit_frame = global::WeatherAppLJH.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_go_btn = global::WeatherAppLJH.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_mag_icon = global::WeatherAppLJH.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_plate = global::WeatherAppLJH.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_src_text = global::WeatherAppLJH.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.search_voice_btn = global::WeatherAppLJH.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.select_dialog_listview = global::WeatherAppLJH.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.shortcut = global::WeatherAppLJH.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.showCustom = global::WeatherAppLJH.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.showHome = global::WeatherAppLJH.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.showTitle = global::WeatherAppLJH.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.snackbar_action = global::WeatherAppLJH.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.snackbar_text = global::WeatherAppLJH.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.snap = global::WeatherAppLJH.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.spacer = global::WeatherAppLJH.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.split_action_bar = global::WeatherAppLJH.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.src_atop = global::WeatherAppLJH.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.src_in = global::WeatherAppLJH.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.src_over = global::WeatherAppLJH.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.start = global::WeatherAppLJH.Droid.Resource.Id.start;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.status_bar_latest_event_content = global::WeatherAppLJH.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.submenuarrow = global::WeatherAppLJH.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.submit_area = global::WeatherAppLJH.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.tabMode = global::WeatherAppLJH.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.text = global::WeatherAppLJH.Droid.Resource.Id.text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.text2 = global::WeatherAppLJH.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.textSpacerNoButtons = global::WeatherAppLJH.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.textSpacerNoTitle = global::WeatherAppLJH.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.textinput_counter = global::WeatherAppLJH.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.textinput_error = global::WeatherAppLJH.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.time = global::WeatherAppLJH.Droid.Resource.Id.time;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.title = global::WeatherAppLJH.Droid.Resource.Id.title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.titleDividerNoCustom = global::WeatherAppLJH.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.title_template = global::WeatherAppLJH.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.top = global::WeatherAppLJH.Droid.Resource.Id.top;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.topPanel = global::WeatherAppLJH.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.touch_outside = global::WeatherAppLJH.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.transition_current_scene = global::WeatherAppLJH.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.transition_scene_layoutid_cache = global::WeatherAppLJH.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.up = global::WeatherAppLJH.Droid.Resource.Id.up;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.useLogo = global::WeatherAppLJH.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.view_offset_helper = global::WeatherAppLJH.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.visible = global::WeatherAppLJH.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.withText = global::WeatherAppLJH.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Id.wrap_content = global::WeatherAppLJH.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.abc_config_activityDefaultDur = global::WeatherAppLJH.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.abc_config_activityShortDur = global::WeatherAppLJH.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::WeatherAppLJH.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.bottom_sheet_slide_duration = global::WeatherAppLJH.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.cancel_button_image_alpha = global::WeatherAppLJH.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.design_snackbar_text_max_lines = global::WeatherAppLJH.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.hide_password_duration = global::WeatherAppLJH.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.show_password_duration = global::WeatherAppLJH.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.Svg.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::WeatherAppLJH.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_action_bar_title_item = global::WeatherAppLJH.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_action_bar_up_container = global::WeatherAppLJH.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_action_menu_item_layout = global::WeatherAppLJH.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_action_menu_layout = global::WeatherAppLJH.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_action_mode_bar = global::WeatherAppLJH.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_action_mode_close_item_material = global::WeatherAppLJH.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_activity_chooser_view = global::WeatherAppLJH.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::WeatherAppLJH.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::WeatherAppLJH.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_alert_dialog_material = global::WeatherAppLJH.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_alert_dialog_title_material = global::WeatherAppLJH.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_dialog_title_material = global::WeatherAppLJH.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_expanded_menu_layout = global::WeatherAppLJH.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::WeatherAppLJH.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_list_menu_item_icon = global::WeatherAppLJH.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_list_menu_item_layout = global::WeatherAppLJH.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_list_menu_item_radio = global::WeatherAppLJH.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::WeatherAppLJH.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_popup_menu_item_layout = global::WeatherAppLJH.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_screen_content_include = global::WeatherAppLJH.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_screen_simple = global::WeatherAppLJH.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::WeatherAppLJH.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_screen_toolbar = global::WeatherAppLJH.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::WeatherAppLJH.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_search_view = global::WeatherAppLJH.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.abc_select_dialog_material = global::WeatherAppLJH.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_bottom_navigation_item = global::WeatherAppLJH.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_bottom_sheet_dialog = global::WeatherAppLJH.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_layout_snackbar = global::WeatherAppLJH.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_layout_snackbar_include = global::WeatherAppLJH.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_layout_tab_icon = global::WeatherAppLJH.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_layout_tab_text = global::WeatherAppLJH.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_menu_item_action_area = global::WeatherAppLJH.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_navigation_item = global::WeatherAppLJH.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_navigation_item_header = global::WeatherAppLJH.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_navigation_item_separator = global::WeatherAppLJH.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_navigation_item_subheader = global::WeatherAppLJH.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_navigation_menu = global::WeatherAppLJH.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.design_navigation_menu_item = global::WeatherAppLJH.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_action = global::WeatherAppLJH.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_action_tombstone = global::WeatherAppLJH.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_media_action = global::WeatherAppLJH.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_media_cancel_action = global::WeatherAppLJH.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_big_media = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_big_media_custom = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_big_media_narrow = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_custom_big = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_icon_group = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_lines_media = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_media = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_media_custom = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_part_chronometer = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.notification_template_part_time = global::WeatherAppLJH.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.select_dialog_item_material = global::WeatherAppLJH.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.select_dialog_multichoice_material = global::WeatherAppLJH.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.select_dialog_singlechoice_material = global::WeatherAppLJH.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Svg.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::WeatherAppLJH.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_action_bar_home_description = global::WeatherAppLJH.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_action_bar_up_description = global::WeatherAppLJH.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_action_menu_overflow_description = global::WeatherAppLJH.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_action_mode_done = global::WeatherAppLJH.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_activity_chooser_view_see_all = global::WeatherAppLJH.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_activitychooserview_choose_application = global::WeatherAppLJH.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_capital_off = global::WeatherAppLJH.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_capital_on = global::WeatherAppLJH.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_search_hint = global::WeatherAppLJH.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_searchview_description_clear = global::WeatherAppLJH.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_searchview_description_query = global::WeatherAppLJH.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_searchview_description_search = global::WeatherAppLJH.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_searchview_description_submit = global::WeatherAppLJH.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_searchview_description_voice = global::WeatherAppLJH.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_shareactionprovider_share_with = global::WeatherAppLJH.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::WeatherAppLJH.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.abc_toolbar_collapse_description = global::WeatherAppLJH.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.appbar_scrolling_view_behavior = global::WeatherAppLJH.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.bottom_sheet_behavior = global::WeatherAppLJH.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.character_counter_pattern = global::WeatherAppLJH.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.library_name = global::WeatherAppLJH.Droid.Resource.String.library_name;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.password_toggle_content_description = global::WeatherAppLJH.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.path_password_eye = global::WeatherAppLJH.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.path_password_eye_mask_strike_through = global::WeatherAppLJH.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.path_password_eye_mask_visible = global::WeatherAppLJH.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.path_password_strike_through = global::WeatherAppLJH.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.search_menu_title = global::WeatherAppLJH.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.Svg.Droid.Resource.String.status_bar_notification_info_overflow = global::WeatherAppLJH.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.AlertDialog_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Animation_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::WeatherAppLJH.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::WeatherAppLJH.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::WeatherAppLJH.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_CardView = global::WeatherAppLJH.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::WeatherAppLJH.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::WeatherAppLJH.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::WeatherAppLJH.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::WeatherAppLJH.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::WeatherAppLJH.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::WeatherAppLJH.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::WeatherAppLJH.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.CardView = global::WeatherAppLJH.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.CardView_Dark = global::WeatherAppLJH.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.CardView_Light = global::WeatherAppLJH.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::WeatherAppLJH.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_V21_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_V25_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::WeatherAppLJH.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::WeatherAppLJH.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::WeatherAppLJH.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::WeatherAppLJH.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Design_Counter = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Design_Error = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Design_Hint = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Design_Tab = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::WeatherAppLJH.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DayNight = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::WeatherAppLJH.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_Design = global::WeatherAppLJH.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::WeatherAppLJH.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_Design_Light = global::WeatherAppLJH.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::WeatherAppLJH.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::WeatherAppLJH.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Theme_Design_NoActionBar = global::WeatherAppLJH.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.ThemeOverlay_AppCompat = global::WeatherAppLJH.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::WeatherAppLJH.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::WeatherAppLJH.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::WeatherAppLJH.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::WeatherAppLJH.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Button = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_EditText = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ListView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_SearchView = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Spinner = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::WeatherAppLJH.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_AppBarLayout = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_NavigationView = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_Snackbar = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_TabLayout = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Style.Widget_Design_TextInputLayout = global::WeatherAppLJH.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_background = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_displayOptions = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_divider = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_elevation = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_height = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_homeLayout = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_icon = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_itemPadding = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_logo = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_navigationMode = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_popupTheme = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_subtitle = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_title = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBarLayout = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::WeatherAppLJH.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMenuItemView = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMenuView = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMode = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMode_background = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMode_height = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::WeatherAppLJH.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActivityChooserView = global::WeatherAppLJH.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::WeatherAppLJH.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog_android_layout = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog_listLayout = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog_showTitle = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::WeatherAppLJH.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayout = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayout_android_background = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayout_elevation = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayout_expanded = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayoutStates = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayout_Layout = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::WeatherAppLJH.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatImageView = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatImageView_android_src = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatImageView_tint = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatSeekBar = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextView = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::WeatherAppLJH.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.BottomNavigationView = global::WeatherAppLJH.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::WeatherAppLJH.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::WeatherAppLJH.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::WeatherAppLJH.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::WeatherAppLJH.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ButtonBarLayout = global::WeatherAppLJH.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::WeatherAppLJH.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView = global::WeatherAppLJH.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_android_minHeight = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_android_minWidth = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_cardCornerRadius = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_cardElevation = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_cardMaxElevation = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_contentPadding = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_contentPaddingRight = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CardView_contentPaddingTop = global::WeatherAppLJH.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::WeatherAppLJH.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ColorStateListItem = global::WeatherAppLJH.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ColorStateListItem_alpha = global::WeatherAppLJH.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::WeatherAppLJH.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ColorStateListItem_android_color = global::WeatherAppLJH.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CompoundButton = global::WeatherAppLJH.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CompoundButton_android_button = global::WeatherAppLJH.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CompoundButton_buttonTint = global::WeatherAppLJH.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::WeatherAppLJH.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::WeatherAppLJH.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_color = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::WeatherAppLJH.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_elevation = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::WeatherAppLJH.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ForegroundLinearLayout = global::WeatherAppLJH.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::WeatherAppLJH.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::WeatherAppLJH.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::WeatherAppLJH.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::WeatherAppLJH.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ListPopupWindow = global::WeatherAppLJH.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::WeatherAppLJH.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::WeatherAppLJH.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuGroup = global::WeatherAppLJH.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::WeatherAppLJH.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuGroup_android_enabled = global::WeatherAppLJH.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuGroup_android_id = global::WeatherAppLJH.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::WeatherAppLJH.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::WeatherAppLJH.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuGroup_android_visible = global::WeatherAppLJH.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_actionLayout = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_actionViewClass = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_checkable = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_checked = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_enabled = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_icon = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_id = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_onClick = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_title = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_android_visible = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuItem_showAsAction = global::WeatherAppLJH.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_android_headerBackground = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_android_itemBackground = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.MenuView_subMenuArrow = global::WeatherAppLJH.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_android_background = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_elevation = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_headerLayout = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_itemBackground = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_itemIconTint = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_itemTextColor = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.NavigationView_menu = global::WeatherAppLJH.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.PopupWindow = global::WeatherAppLJH.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::WeatherAppLJH.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::WeatherAppLJH.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::WeatherAppLJH.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.PopupWindowBackgroundState = global::WeatherAppLJH.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::WeatherAppLJH.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecycleListView = global::WeatherAppLJH.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::WeatherAppLJH.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::WeatherAppLJH.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecyclerView = global::WeatherAppLJH.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::WeatherAppLJH.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecyclerView_android_orientation = global::WeatherAppLJH.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecyclerView_layoutManager = global::WeatherAppLJH.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::WeatherAppLJH.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecyclerView_spanCount = global::WeatherAppLJH.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::WeatherAppLJH.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::WeatherAppLJH.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::WeatherAppLJH.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::WeatherAppLJH.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::WeatherAppLJH.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_android_focusable = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_android_imeOptions = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_android_inputType = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_android_maxWidth = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_closeIcon = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_commitIcon = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_goIcon = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_layout = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_queryBackground = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_queryHint = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_searchHintIcon = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_searchIcon = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_submitBackground = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SearchView_voiceIcon = global::WeatherAppLJH.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SnackbarLayout = global::WeatherAppLJH.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::WeatherAppLJH.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SnackbarLayout_elevation = global::WeatherAppLJH.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::WeatherAppLJH.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Spinner = global::WeatherAppLJH.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::WeatherAppLJH.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Spinner_android_entries = global::WeatherAppLJH.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Spinner_android_popupBackground = global::WeatherAppLJH.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Spinner_android_prompt = global::WeatherAppLJH.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Spinner_popupTheme = global::WeatherAppLJH.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_showText = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_track = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_trackTint = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::WeatherAppLJH.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabItem = global::WeatherAppLJH.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabItem_android_icon = global::WeatherAppLJH.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabItem_android_layout = global::WeatherAppLJH.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabItem_android_text = global::WeatherAppLJH.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabBackground = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabContentStart = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabGravity = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabMode = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabPadding = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TabLayout_tabTextColor = global::WeatherAppLJH.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_textColor = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_textSize = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_android_typeface = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::WeatherAppLJH.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_android_hint = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::WeatherAppLJH.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_android_gravity = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_android_minHeight = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_buttonGravity = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_collapseIcon = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_logo = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_logoDescription = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_navigationIcon = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_popupTheme = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_subtitle = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_title = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleMargin = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleMargins = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.Toolbar_titleTextColor = global::WeatherAppLJH.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.View = global::WeatherAppLJH.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.View_android_focusable = global::WeatherAppLJH.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.View_android_theme = global::WeatherAppLJH.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.View_paddingEnd = global::WeatherAppLJH.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.View_paddingStart = global::WeatherAppLJH.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.View_theme = global::WeatherAppLJH.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewBackgroundHelper = global::WeatherAppLJH.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::WeatherAppLJH.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::WeatherAppLJH.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::WeatherAppLJH.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewStubCompat = global::WeatherAppLJH.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewStubCompat_android_id = global::WeatherAppLJH.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::WeatherAppLJH.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.Svg.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::WeatherAppLJH.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::WeatherAppLJH.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::WeatherAppLJH.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::WeatherAppLJH.Droid.Resource.Attribute.fontProviderAuthority;
@@ -16487,181 +18262,220 @@ namespace WeatherAppLJH.Droid
 			public const int abc_vector_test = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int avd_hide_password = 2131165269;
+			public const int air_fill0_wght400_grad0_opsz48 = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int avd_show_password = 2131165270;
+			public const int avd_hide_password = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int btn_checkbox_checked_mtrl = 2131165271;
+			public const int avd_show_password = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165272;
+			public const int btn_checkbox_checked_mtrl = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int btn_checkbox_unchecked_mtrl = 2131165273;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165274;
+			public const int btn_checkbox_unchecked_mtrl = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int btn_radio_off_mtrl = 2131165275;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165276;
+			public const int btn_radio_off_mtrl = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int btn_radio_on_mtrl = 2131165277;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165278;
+			public const int btn_radio_on_mtrl = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_fab_background = 2131165279;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_ic_visibility = 2131165280;
+			public const int clear_day_fill0_wght400_grad0_opsz48 = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_ic_visibility_off = 2131165281;
+			public const int clear_night_fill0_wght400_grad0_opsz48 = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_password_eye = 2131165282;
+			public const int cloudy_snowing_fill0_wght400_grad0_opsz48 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_snackbar_background = 2131165283;
+			public const int cyclone_fill0_wght400_grad0_opsz48 = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_arrow_down_24dp = 2131165284;
+			public const int design_fab_background = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int ic_clock_black_24dp = 2131165285;
+			public const int design_ic_visibility = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int ic_keyboard_black_24dp = 2131165286;
+			public const int design_ic_visibility_off = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int ic_mtrl_checked_circle = 2131165287;
+			public const int design_password_eye = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_mtrl_chip_checked_black = 2131165288;
+			public const int design_snackbar_background = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_mtrl_chip_checked_circle = 2131165289;
+			public const int flood_fill0_wght400_grad0_opsz48 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_mtrl_chip_close_circle = 2131165290;
+			public const int ic_arrow_down_24dp = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int material_cursor_drawable = 2131165291;
+			public const int ic_clock_black_24dp = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int material_ic_calendar_black_24dp = 2131165292;
+			public const int ic_keyboard_black_24dp = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int material_ic_clear_black_24dp = 2131165293;
+			public const int ic_mtrl_checked_circle = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_ic_edit_black_24dp = 2131165294;
+			public const int ic_mtrl_chip_checked_black = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165295;
+			public const int ic_mtrl_chip_checked_circle = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165296;
+			public const int ic_mtrl_chip_close_circle = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165297;
+			public const int material_cursor_drawable = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165298;
+			public const int material_ic_calendar_black_24dp = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165299;
+			public const int material_ic_clear_black_24dp = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165300;
+			public const int material_ic_edit_black_24dp = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int mtrl_dialog_background = 2131165301;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int mtrl_dropdown_arrow = 2131165302;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int mtrl_ic_arrow_drop_down = 2131165303;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_ic_arrow_drop_up = 2131165304;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_ic_cancel = 2131165305;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_ic_error = 2131165306;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_navigation_bar_item_background = 2131165307;
+			public const int mtrl_dialog_background = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_popupmenu_background = 2131165308;
+			public const int mtrl_dropdown_arrow = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_popupmenu_background_dark = 2131165309;
+			public const int mtrl_ic_arrow_drop_down = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_tabs_default_indicator = 2131165310;
+			public const int mtrl_ic_arrow_drop_up = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int navigation_empty_icon = 2131165311;
+			public const int mtrl_ic_cancel = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_action_background = 2131165312;
+			public const int mtrl_ic_error = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_bg = 2131165313;
+			public const int mtrl_navigation_bar_item_background = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_bg_low = 2131165314;
+			public const int mtrl_popupmenu_background = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg_low_normal = 2131165315;
+			public const int mtrl_popupmenu_background_dark = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg_low_pressed = 2131165316;
+			public const int mtrl_tabs_default_indicator = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_normal = 2131165317;
+			public const int navigation_empty_icon = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_normal_pressed = 2131165318;
+			public const int notification_action_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_icon_background = 2131165319;
+			public const int notification_bg = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_template_icon_bg = 2131165320;
+			public const int notification_bg_low = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_template_icon_low_bg = 2131165321;
+			public const int notification_bg_low_normal = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_tile_bg = 2131165322;
+			public const int notification_bg_low_pressed = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notify_panel_notification_icon_bg = 2131165323;
+			public const int notification_bg_normal = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int preference_list_divider_material = 2131165324;
+			public const int notification_bg_normal_pressed = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int test_custom_background = 2131165325;
+			public const int notification_icon_background = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tooltip_frame_dark = 2131165326;
+			public const int notification_template_icon_bg = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_light = 2131165327;
+			public const int notification_template_icon_low_bg = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int notification_tile_bg = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int notify_panel_notification_icon_bg = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int preference_list_divider_material = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int search_fill0_wght400_grad0_opsz48 = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int settings_fill0_wght400_grad0_opsz48 = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int sunny_482px = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int sunny_48px = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int sunny_fill0_wght400_grad0_opsz48 = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int test_custom_background = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int thermostat_fill0_wght400_grad0_opsz48 = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int thunderstorm_fill0_wght400_grad0_opsz48 = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int tooltip_frame_dark = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int tooltip_frame_light = 2131165340;
 			
 			static Drawable()
 			{
@@ -18963,214 +20777,217 @@ namespace WeatherAppLJH.Droid
 			public const int item_view_role_description = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int material_clock_display_divider = 2131623984;
+			public const int library_name = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_toggle_content_description = 2131623985;
+			public const int material_clock_display_divider = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_hour_selection = 2131623986;
+			public const int material_clock_toggle_content_description = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_suffix = 2131623987;
+			public const int material_hour_selection = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_minute_selection = 2131623988;
+			public const int material_hour_suffix = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_suffix = 2131623989;
+			public const int material_minute_selection = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_motion_easing_accelerated = 2131623990;
+			public const int material_minute_suffix = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_decelerated = 2131623991;
+			public const int material_motion_easing_accelerated = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_emphasized = 2131623992;
+			public const int material_motion_easing_decelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_linear = 2131623993;
+			public const int material_motion_easing_emphasized = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_standard = 2131623994;
+			public const int material_motion_easing_linear = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_slider_range_end = 2131623995;
+			public const int material_motion_easing_standard = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_start = 2131623996;
+			public const int material_slider_range_end = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_timepicker_am = 2131623997;
+			public const int material_slider_range_start = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_clock_mode_description = 2131623998;
+			public const int material_timepicker_am = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_hour = 2131623999;
+			public const int material_timepicker_clock_mode_description = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_minute = 2131624000;
+			public const int material_timepicker_hour = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_pm = 2131624001;
+			public const int material_timepicker_minute = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_select_time = 2131624002;
+			public const int material_timepicker_pm = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_text_input_mode_description = 2131624003;
+			public const int material_timepicker_select_time = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_badge_numberless_content_description = 2131624004;
+			public const int material_timepicker_text_input_mode_description = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_chip_close_icon_content_description = 2131624005;
+			public const int mtrl_badge_numberless_content_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624006;
+			public const int mtrl_chip_close_icon_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624007;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_a11y_next_month = 2131624008;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_prev_month = 2131624009;
+			public const int mtrl_picker_a11y_next_month = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_announce_current_selection = 2131624010;
+			public const int mtrl_picker_a11y_prev_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_cancel = 2131624011;
+			public const int mtrl_picker_announce_current_selection = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_confirm = 2131624012;
+			public const int mtrl_picker_cancel = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_date_header_selected = 2131624013;
+			public const int mtrl_picker_confirm = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_title = 2131624014;
+			public const int mtrl_picker_date_header_selected = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_unselected = 2131624015;
+			public const int mtrl_picker_date_header_title = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_day_of_week_column_header = 2131624016;
+			public const int mtrl_picker_date_header_unselected = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_format = 2131624017;
+			public const int mtrl_picker_day_of_week_column_header = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format_example = 2131624018;
+			public const int mtrl_picker_invalid_format = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_use = 2131624019;
+			public const int mtrl_picker_invalid_format_example = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_range = 2131624020;
+			public const int mtrl_picker_invalid_format_use = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_navigate_to_year_description = 2131624021;
+			public const int mtrl_picker_invalid_range = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_out_of_range = 2131624022;
+			public const int mtrl_picker_navigate_to_year_description = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131624023;
+			public const int mtrl_picker_out_of_range = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131624024;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_title = 2131624026;
+			public const int mtrl_picker_range_header_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_unselected = 2131624027;
+			public const int mtrl_picker_range_header_title = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_save = 2131624028;
+			public const int mtrl_picker_range_header_unselected = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_date_hint = 2131624029;
+			public const int mtrl_picker_save = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624030;
+			public const int mtrl_picker_text_input_date_hint = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_day_abbr = 2131624032;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_month_abbr = 2131624033;
+			public const int mtrl_picker_text_input_day_abbr = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_year_abbr = 2131624034;
+			public const int mtrl_picker_text_input_month_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624035;
+			public const int mtrl_picker_text_input_year_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131624036;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624037;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131624038;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int nav_app_bar_navigate_up_description = 2131624039;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_open_drawer_description = 2131624040;
+			public const int nav_app_bar_navigate_up_description = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int not_set = 2131624041;
+			public const int nav_app_bar_open_drawer_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int overflow_tab_title = 2131624042;
+			public const int not_set = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int password_toggle_content_description = 2131624043;
+			public const int overflow_tab_title = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int path_password_eye = 2131624044;
+			public const int password_toggle_content_description = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye_mask_strike_through = 2131624045;
+			public const int path_password_eye = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_visible = 2131624046;
+			public const int path_password_eye_mask_strike_through = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_strike_through = 2131624047;
+			public const int path_password_eye_mask_visible = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int preference_copied = 2131624048;
+			public const int path_password_strike_through = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int search_menu_title = 2131624049;
+			public const int preference_copied = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int search_menu_title = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int status_bar_notification_info_overflow = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int summary_collapsed_preference_list = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int v7_preference_off = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int v7_preference_on = 2131624054;
 			
 			static String()
 			{

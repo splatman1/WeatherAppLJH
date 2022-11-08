@@ -1,22 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WeatherAppLJH.MainPortrait">
-  <ContentView.Content>
+             x:Class="WeatherAppLJH.MainPortrait" BackgroundColor="#4E6383">
+    
+    <ContentView.Content>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-            <StackLayout>
-                <Frame BorderColor="Red" Grid.Row="0" Grid.Column="0">
-                    <Label Text="Hello"/>
-                </Frame>
-            </StackLayout>
-            </Grid>
+            
+            <Frame BorderColor="Red" Grid.Row="0" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="4" BackgroundColor="#00000000">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="settings_fill0_wght400_grad0_opsz48.xml" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" Clicked="ImageButton_Clicked" BackgroundColor ="#00000000"/>
+                    <ImageButton Source="search_fill0_wght400_grad0_opsz48.xml" VerticalOptions="StartAndExpand" HorizontalOptions="EndAndExpand" Clicked="ImageButton_Clicked_1" BackgroundColor="#00000000"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Red" Grid.Row="1" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="2" BackgroundColor="#00000000">
+                <StackLayout Spacing="0" Orientation="Vertical" HorizontalOptions="Start" >
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="Temperature" Text="30" FontSize="40" TextColor="Black" VerticalTextAlignment="Start"/>
+                        <Label x:Name="UnitOfMeasurementCurrentTemp" Text="°C" FontSize="40" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="Start" Orientation="Vertical" BackgroundColor="#00000000">
+                        <Label x:Name="Forecast" Text="Sunny" FontSize="25" TextColor="Black" Margin="-5"/> 
+                        <Label x:Name="Location" Text="Perth" FontSize="25" TextColor="White" Margin="-5"/>
+                        <Label x:Name="Day" Text="Wednesday" FontSize="25" TextColor="White" Margin="-5"/>
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Horizontal" Margin="2">
+                        <Label x:Name="MinimumTemperature" Text="17" TextColor="Black"/>
+                        <Label x:Name="Symbol" Text="/" TextColor="Black"/>
+                        <Label x:Name="MaximumTemperature" Text="29" TextColor="Black"/>
+                        <Label x:Name="UnitOfMeasurementDayTemp" Text="°C" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Feels Like" TextColor="White" Margin="0"/>
+                        <Label x:Name="FeelsLikeTemperature" Text="30°C" TextColor="Black" Margin="0"/>
+                    </StackLayout>
+                </StackLayout>                
+            </Frame>
+            <Frame BorderColor="Red" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="#0000">
+                <Image x:Name="WeatherTypeImage" Source="sunny_482px.xml"/>
+            </Frame>
+            
+            <ListView x:Name="WeeklyListView" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" HorizontalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="White" Orientation="Vertical" VerticalOptions="FillAndExpand" HeightRequest="300">
+                                <Frame BorderColor="Black" VerticalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                                        <Image Source="{Binding Image}" HorizontalOptions="Center" />
+                                        <Label Text="{Binding Title}" HorizontalOptions="EndAndExpand" TextColor="Black"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </Grid>
     </ContentView.Content>
 </ContentView>
