@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherAppLJH.SearchPagePortrait" Background="#2196F3">
+  <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+                <Image Source="search_fill0_wght400_grad0_opsz48.xml"/>
+                <Entry x:Name="SearchLocation" TextColor="White" Placeholder="Search a city thats matters" PlaceholderColor="LightGray"/>                    
+            </StackLayout>
+            
+            <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Current Location"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="my_location_48px.xml"/>
+                    <Label x:Name="CurrentLocation" Text="Perth, Western Australia, Australia" VerticalOptions="Center"/>
+                </StackLayout>                                
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center">
+                <Label Text="Default Locations"/>
+                <ListView x:Name="DefaultPlaceNames" Grid.Row="2" Grid.RowSpan="3" HorizontalOptions="Center" VerticalOptions="StartAndExpand" RowHeight="100" BackgroundColor="{Static Color.Transparent}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout BackgroundColor="White" Orientation="Vertical">
+                                        <Frame  Margin="0,7" BackgroundColor="{Static Color.Transparent}" BorderColor="#0000">
+                                            <StackLayout Orientation="Horizontal" Spacing="200">
+                                                <Label Text="{Binding Location}" HorizontalOptions="Center" TextColor="Black"/>
+                                            <Image Source="{Binding LocationWeather}" HorizontalOptions="CenterAndExpand"/>
+                                        </StackLayout>
+                                        </Frame>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>                
+            </StackLayout>
+
+            <StackLayout Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button x:Name="HomeButton" Text="Home" Clicked="HomeButton_Clicked"/>                
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

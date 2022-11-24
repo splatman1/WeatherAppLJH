@@ -12,17 +12,17 @@ namespace WeatherAppLJH
     {
 
         //previous screen size
-        private double width = 0;
-        private double height = 0;
+        /*private double width = 0;
+        private double height = 0;*/
 
         public MainPage()
         {
             InitializeComponent();
-            UpdateLayout();
+            /*UpdateLayout();*/
         }
 
 
-        protected override void OnSizeAllocated(double width, double height)
+        /*protected override void OnSizeAllocated(double width, double height)
         {
             base.OnSizeAllocated(width, height); //This must stay
 
@@ -55,7 +55,7 @@ namespace WeatherAppLJH
                 Content = new MainPortrait(inputString);
             }
 
-        }
+        }*/
 
     }
 }

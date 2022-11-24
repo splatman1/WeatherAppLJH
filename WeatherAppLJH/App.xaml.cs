@@ -10,7 +10,7 @@ namespace WeatherAppLJH
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainPortrait();
         }
 
         protected override void OnStart()

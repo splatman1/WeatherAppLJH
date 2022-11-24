@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherAppLJH.AdvancedPagePortrait" BackgroundColor="#2196F3">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>                
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Orientation="Horizontal" Spacing="50" HorizontalOptions="Center" VerticalOptions="StartAndExpand">
+                <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                    <Label x:Name="CurrentTemperatureAdvanced" VerticalOptions="Center" HorizontalOptions="Center"  Text="13°C" FontSize="50"/>
+                    <Label x:Name="CurrentWeatherAdvanced" VerticalOptions="Center" Text="Cloudy" HorizontalOptions="Center" FontSize="20"/>
+                    <Label x:Name="CurrentLocationAdvanced" VerticalOptions="Center" Text="Perth" HorizontalOptions="Center" FontSize="20"/>
+                    <Label x:Name="CurrentDayAdvanced" VerticalOptions="Center" Text="Wednesday" HorizontalOptions="Center" FontSize="20"/>
+                    <Label x:Name="MaxMinTemperatureAdvanced" VerticalOptions="Center" Text="20°C / 30°C" HorizontalOptions="Center" FontSize="20"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="50" HorizontalOptions="StartAndExpand">
+                    <Image x:Name="WeatherImageAdvanced"  Source="thunderstorm_fill0_wght400_grad0_opsz48.xml" Scale="2" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+            <Frame Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="4" BackgroundColor="{Static Color.Transparent}">
+                <ListView x:Name="AdvancedWeatherListView" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="4" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowHeight="100" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0,5" BackgroundColor="{Static Color.Transparent}" BorderColor="#0000">
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                        <Image Source="{Binding WeatherSymbolImage}" HorizontalOptions="StartAndExpand" Scale="1" VerticalOptions="Center"/>
+                                        <Label Text="{Binding WeatherInfo}" HorizontalOptions="EndAndExpand" TextColor="Black"/>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+            
+            <StackLayout Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button x:Name="HomeButton" Text="Home" Clicked="HomeButton_Clicked"/>
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+    
