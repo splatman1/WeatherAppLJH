@@ -35,7 +35,7 @@
                             <ViewCell>
                                 <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0,5" BackgroundColor="{Static Color.Transparent}" BorderColor="#0000">
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                                        <Image Source="{Binding WeatherSymbolImage}" HorizontalOptions="StartAndExpand" Scale="1" VerticalOptions="Center"/>
+                                        <Image Source="{Binding WeatherSymbolImage}" HorizontalOptions="StartAndExpand" Scale="1" VerticalOptions="CenterAndExpand"/>
                                         <Label Text="{Binding WeatherInfo}" HorizontalOptions="EndAndExpand" TextColor="Black"/>
                                     </StackLayout>
                                 </Frame>

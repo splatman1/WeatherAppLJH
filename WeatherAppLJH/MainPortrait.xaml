@@ -50,7 +50,7 @@
                 </StackLayout>                
             </Frame>
             <Frame Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="#0000">
-                <Image x:Name="WeatherTypeImage" Source="sunny_482px.xml"/>
+                <Image x:Name="WeatherTypeImage" Source="sunny_482px.xml" Margin="0"/>
             </Frame>
 
             <ListView x:Name="WeeklyListView" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" HorizontalOptions="FillAndExpand" RowHeight="100" BackgroundColor="{Static Color.Transparent}" SelectionMode="None" >
@@ -61,7 +61,7 @@
                                 <Frame BorderColor="Black" VerticalOptions="FillAndExpand" BackgroundColor="{Static Color.Transparent}">
                                     <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
                                         <Label Text="{Binding Title}" HorizontalOptions="Center" TextColor="Black"/>
-                                        <Image Source="{Binding Image}" HorizontalOptions="EndAndExpand" />
+                                        <Image Source="{Binding Image}" HorizontalOptions="EndAndExpand" Scale="13" Margin="24" />
                                     </StackLayout>
                                 </Frame>
                             </StackLayout>
@@ -71,7 +71,7 @@
             </ListView>
 
             <StackLayout Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
-                <Button x:Name="HomeButton" Text="Home"/>
+                <Button x:Name="HomeButton" Text="Home" Clicked="HomeButton_Clicked"/>
                 <Button x:Name="SearchButton" Text="Search" Clicked="SearchButton_Clicked"/>
                 <Button x:Name="AdvancedButton" Text="Advanced" Clicked="AdvancedButton_Clicked"/>
                 <Button x:Name="Settings" Text="Settings" Clicked="Settings_Clicked"/>                

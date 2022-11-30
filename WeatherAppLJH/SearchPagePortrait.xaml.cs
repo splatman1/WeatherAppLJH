@@ -11,46 +11,81 @@ namespace WeatherAppLJH
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SearchPagePortrait : ContentPage
+
     {
+        WeatherAppAPI api = new WeatherAppAPI();
         public SearchPagePortrait()
         {
             InitializeComponent();
+            SetupSearchPage();
+        }
+
+        private async void HomeButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+            
+        }
+
+        private async void SetupSearchPage()
+        {
+            WeatherInfo london = await api.GetWeatherInformation("London");
+            WeatherInfo Belfast = await api.GetWeatherInformation("Belfast");
+            WeatherInfo Perth = await api.GetWeatherInformation("Perth");
+            WeatherInfo Sapporo = await api.GetWeatherInformation("Sapporo");
+            WeatherInfo Melbourne = await api.GetWeatherInformation("Melbourne");
+
             List<DefaultLocationsSearch> defaultDaysSearch = new List<DefaultLocationsSearch>()
             {
                 new DefaultLocationsSearch()
                 {
                     Location = "London, England",
-                    LocationWeather = "clear_day_fill0_wght400_grad0_opsz48.xml"
+                    LocationWeather = "https://openweathermap.org/img/w/" + london.weather[0].icon + ".png"
 
                 },
                  new DefaultLocationsSearch()
                 {
                     Location = "Belfast, Northern Ireland",
-                    LocationWeather = "clear_day_fill0_wght400_grad0_opsz48.xml"
+                    LocationWeather = "https://openweathermap.org/img/w/" + Belfast.weather[0].icon + ".png"
 
                 },new DefaultLocationsSearch()
                 {
                     Location = "Perth, Western Australia",
-                    LocationWeather = "clear_day_fill0_wght400_grad0_opsz48.xml"
+                    LocationWeather = "https://openweathermap.org/img/w/" + Perth.weather[0].icon + ".png"
 
                 },new DefaultLocationsSearch()
                 {
                     Location = "Sapporo, Japan",
-                    LocationWeather = "clear_day_fill0_wght400_grad0_opsz48.xml"
+                    LocationWeather = "https://openweathermap.org/img/w/" + Sapporo.weather[0].icon + ".png"
 
                 },new DefaultLocationsSearch()
                 {
                     Location = "Melbourne, Victoria",
-                    LocationWeather = "clear_day_fill0_wght400_grad0_opsz48.xml"
+                    LocationWeather = "https://openweathermap.org/img/w/" + Melbourne.weather[0].icon + ".png"
 
                 }
             };
             DefaultPlaceNames.ItemsSource = defaultDaysSearch;
         }
 
-        private async void HomeButton_Clicked(object sender, EventArgs e)
+        private async void Search_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopModalAsync();
+            string locationEntered = SearchLocation.Text;            
+            WeatherInfo SearchedLocation = await api.GetWeatherInformation(locationEntered);
+            LocationEntered.Text = locationEntered;
+            if (SearchedLocation != null)
+                {
+                    CitySearchedImage.Source = "https://openweathermap.org/img/w/" + SearchedLocation.weather[0].icon + ".png";
+                    CitySearchedTemperature.Text = (SearchedLocation.main.temp + "°C").ToString();
+                }
+            if (SearchedLocation == null)
+            {
+                LocationEntered.Text = "Enter a valid location";
+            }
+            
+            }
+
+
+
+
         }
     }
-}
