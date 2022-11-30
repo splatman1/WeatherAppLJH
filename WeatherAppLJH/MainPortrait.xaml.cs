@@ -28,11 +28,11 @@ namespace WeatherAppLJH
             WeatherInfo weather = await api.GetWeatherInformation("Perth");
             Temperature.Text = weather.main.temp.ToString();
             Forecast.Text = weather.weather[0].description.ToString();
-            Day.Text = DateTime.Today.DayOfWeek.ToString();
+            Day.Text = DateTime.Now.DayOfWeek.ToString();
             FeelsLikeTemperature.Text = weather.main.feels_like.ToString() + "°C";
             MinimumTemperature.Text = weather.main.temp_min.ToString();
             MaximumTemperature.Text = weather.main.temp_max.ToString();
-            WeatherTypeImage.Source = "https://openweathermap.org/img/w/" + weather.weather[0].icon + ".png";           
+            WeatherTypeImage.Source = "https://openweathermap.org/img/wn/" + weather.weather[0].icon + "@2x.png";           
 
         }
         public async void GetWeeklyWeather()
@@ -45,43 +45,43 @@ namespace WeatherAppLJH
                 {
 
                     Title = "Monday",
-                    Image = "https://openweathermap.org/img/w/" + weather.weather[0].icon +".png"
+                    Image = "https://openweathermap.org/img/wn/" + weather.weather[0].icon +"@2x.png"
 
                 },
                  new WeeklyForecastDayModel()
                 {
                     Title = "Tuesday",
-                    Image = "https://openweathermap.org/img/w/" + weather.weather[0].icon +".png"
+                    Image = "https://openweathermap.org/img/wn/" + weather.weather[0].icon +"@2x.png"
 
                 },
                   new WeeklyForecastDayModel()
                 {
                     Title = "Wednesday",
-                    Image = "https://openweathermap.org/img/w/" + weather.weather[0].icon +".png"
+                    Image = "https://openweathermap.org/img/wn/" + weather.weather[0].icon +"@2x.png"
 
                 },
                    new WeeklyForecastDayModel()
                 {
                     Title = "Thursday",
-                    Image = "https://openweathermap.org/img/w/" + weather.weather[0].icon +".png"
+                    Image = "https://openweathermap.org/img/wn/" + weather.weather[0].icon +"@2x.png"
 
                 },
                     new WeeklyForecastDayModel()
                 {
                     Title = "Friday",
-                    Image = "https://openweathermap.org/img/w/" + weather.weather[0].icon +".png"
+                    Image = "https://openweathermap.org/img/wn/" + weather.weather[0].icon +"@2x.png"
 
                 },
                      new WeeklyForecastDayModel()
                 {
                     Title = "Saturday",
-                    Image = "https://openweathermap.org/img/w/" + weather.weather[0].icon +".png"
+                    Image = "https://openweathermap.org/img/wn/" + weather.weather[0].icon +"@2x.png"
 
                 },
                       new WeeklyForecastDayModel()
                 {
                     Title = "Sunday",
-                    Image = "https://openweathermap.org/img/w/" + weather.weather[0].icon +".png"
+                    Image = "https://openweathermap.org/img/wn/" + weather.weather[0].icon +"@2x.png"
 
                 }
 

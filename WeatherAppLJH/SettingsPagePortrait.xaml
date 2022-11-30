@@ -32,7 +32,7 @@
             <StackLayout Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" VerticalOptions="CenterAndExpand" Orientation="Vertical" Spacing="100" HorizontalOptions="CenterAndExpand">
                 <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                     <Label Text="°C" FontSize="20"/>
-                    <Switch Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a"/>
+                    <Switch x:Name="ImperialOn" Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a" Toggled="ImperialOn_Toggled"/>
                     <Label Text="°F" FontSize="20"/>
                 </StackLayout>
                 <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">

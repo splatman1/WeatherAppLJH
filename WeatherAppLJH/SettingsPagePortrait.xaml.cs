@@ -21,5 +21,10 @@ namespace WeatherAppLJH
         {
             await Navigation.PopModalAsync();
         }
+
+        private void ImperialOn_Toggled(object sender, ToggledEventArgs e)
+        {
+            
+        }
     }
 }
