@@ -37,7 +37,7 @@
                 </StackLayout>
                 <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                     <Label Text="Km/h"  FontSize="20"/>
-                    <Switch Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a"/>
+                    <Switch x:Name="WindUnitOfMeasurement" Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a" Toggled="WindUnitOfMeasurement_Toggled"/>
                     <Label Text="mph"  FontSize="20"/>
                 </StackLayout>
                 <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">

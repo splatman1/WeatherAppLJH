@@ -5,13 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
+using Xamarin.Essentials;
 
 namespace WeatherAppLJH
 {
     class WeatherAppAPI
     {
-        public async Task<WeatherInfo> GetWeatherInformation(string location = "Perth", string unitOfMeasurement = "Metric", string dayOfWeather = "CurrentDay", string unitOfMeasurementWind = "meter/sec)")
+        
+        public async Task<WeatherInfo> GetWeatherInformation(string location = "Perth")
         {
+            string dayOfWeather = "CurrentDay";
+            string unitOfMeasurementWind = Preferences.Get("UnitOfMeasurementWind", "");
+            string unitOfMeasurement = Preferences.Get("UnitOfMeasurement", "");
+
+
             //This is the client object that will send and recieve the messages (HTTP requests/responses) for us
             HttpClient client = new HttpClient();
             if (location == string.Empty)
