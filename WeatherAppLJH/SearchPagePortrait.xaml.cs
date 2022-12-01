@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace WeatherAppLJH
 {
@@ -23,7 +24,7 @@ namespace WeatherAppLJH
         private async void HomeButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
-            
+
         }
 
         private async void SetupSearchPage()
@@ -69,23 +70,35 @@ namespace WeatherAppLJH
 
         private async void Search_Clicked(object sender, EventArgs e)
         {
-            string locationEntered = SearchLocation.Text;            
-            WeatherInfo SearchedLocation = await api.GetWeatherInformation(locationEntered);
-            LocationEntered.Text = locationEntered;
-            if (SearchedLocation != null)
+            string locationEntered = SearchLocation.Text;
+            if (!string.IsNullOrWhiteSpace(locationEntered))
+            {
+                WeatherInfo SearchedLocation = await api.GetWeatherInformation(locationEntered);
+                if (SearchedLocation.cod != 404)
                 {
+                    LocationEntered.Text = locationEntered;                     
+                    CitySearchedTemperature.Text = "";
                     CitySearchedImage.Source = "https://openweathermap.org/img/w/" + SearchedLocation.weather[0].icon + ".png";
-                    CitySearchedTemperature.Text = (SearchedLocation.main.temp + "°C").ToString();
+                    CitySearchedTemperature.Text = (SearchedLocation.main.temp + Preferences.Get("TempDegrees", "")).ToString();
+                    
                 }
-            if (SearchedLocation == null)
+                else
+                {
+                    LocationEntered.Text = "Enter a valid location";
+                }     
+
+                
+            }
+            else
             {
                 LocationEntered.Text = "Enter a valid location";
             }
-            
-            }
+
+
 
 
 
 
         }
     }
+}

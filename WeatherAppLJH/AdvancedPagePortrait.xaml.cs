@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace WeatherAppLJH
 {
@@ -25,11 +26,11 @@ namespace WeatherAppLJH
 
             WeatherInfo Perth = await api.GetWeatherInformation("Perth");
 
-            CurrentTemperatureAdvanced.Text = Perth.main.temp + "°C".ToString();
+            CurrentTemperatureAdvanced.Text = Perth.main.temp + Preferences.Get("TempDegrees", "").ToString();
             CurrentWeatherAdvanced.Text = Perth.weather[0].description.ToString();
             CurrentLocationAdvanced.Text = Perth.name.ToString();
             CurrentDayAdvanced.Text = DateTime.Now.DayOfWeek.ToString();
-            MaxMinTemperatureAdvanced.Text = Perth.main.temp_min.ToString() +" / "+ Perth.main.temp_max.ToString() + "°C";
+            MaxMinTemperatureAdvanced.Text = Perth.main.temp_min.ToString() +" / "+ Perth.main.temp_max + Preferences.Get("TempDegrees", "").ToString(); ;
             WeatherImageAdvanced.Source = "https://openweathermap.org/img/wn/" + Perth.weather[0].icon + "@2x.png";
 
             List <AdvancedWeatherInfo> advancedWeatherInfo = new List<AdvancedWeatherInfo>()
@@ -42,17 +43,17 @@ namespace WeatherAppLJH
                 },
                  new AdvancedWeatherInfo()
                 {
-                    WeatherInfo = TimeConfig.UnixTimeStampToDateTime(Perth.sys.sunset).ToString(),
-                    WeatherSymbolImage = "https://openweathermap.org/img/wn/" + "01d@2x.png"
+                    WeatherInfo = TimeConfig.UnixTimeStampToDateTime(Perth.sys.sunrise).ToString(Preferences.Get("12Hour24HourTime", "")) + " AM",
+                    WeatherSymbolImage =  "https://openweathermap.org/img/wn/" + "01d@2x.png"
 
                 },new AdvancedWeatherInfo()
                 {
-                    WeatherInfo = TimeConfig.UnixTimeStampToDateTime(Perth.sys.sunrise).ToString(),
-                    WeatherSymbolImage =  "https://openweathermap.org/img/wn/" + "01n@2x.png"
+                    WeatherInfo = TimeConfig.UnixTimeStampToDateTime(Perth.sys.sunset).ToString(Preferences.Get("12Hour24HourTime", ""))+ " PM",
+                    WeatherSymbolImage = "https://openweathermap.org/img/wn/" + "01n@2x.png"
 
                 },new AdvancedWeatherInfo()
                 {
-                    WeatherInfo = Perth.wind.speed.ToString() + " meter/sec",
+                    WeatherInfo = Perth.wind.speed.ToString() + " " + Preferences.Get("UnitOfMeasurementWind", ""),
                     WeatherSymbolImage = "https://openweathermap.org/img/wn/" + "50d@2x.png"
                 },new AdvancedWeatherInfo()
                 {
@@ -65,6 +66,11 @@ namespace WeatherAppLJH
         private async void HomeButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            SetupAdvancedPage();
         }
     }
 }

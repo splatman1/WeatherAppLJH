@@ -21,10 +21,32 @@ namespace WeatherAppLJH
             {
                 if (UnitOfMeasurement == "Metric")
                 {
-                    ImperialOn.IsToggled = false;
+                    ImperialOn.IsToggled = false;                    
                 }
                 if (UnitOfMeasurement == "Imperial"){
                     ImperialOn.IsToggled = true;
+                }
+            }
+            string UnitOfMeasurementWind = Preferences.Get("UnitOfMeasurementWind", "");
+            {
+                if (UnitOfMeasurementWind == "meters/sec")
+                {
+                    WindUnitOfMeasurement.IsToggled = false;
+                }
+                if (UnitOfMeasurementWind == "miles/hour")
+                {
+                    WindUnitOfMeasurement.IsToggled = true;
+                }
+            }
+            string TimeFormat = Preferences.Get("12Hour24HourTime", "");
+            {
+                if (TimeFormat == "hh:mm:ss")
+                {
+                    TwelveHourTime.IsToggled = false;
+                }
+                if (TimeFormat == "HH:mm:ss")
+                {
+                    TwelveHourTime.IsToggled = true;
                 }
             }
 
@@ -38,11 +60,27 @@ namespace WeatherAppLJH
         private void ImperialOn_Toggled(object sender, ToggledEventArgs e)
         {
             Preferences.Set("UnitOfMeasurement", (ImperialOn.IsToggled)? "Imperial":"Metric");
+            string Degrees = Preferences.Get("UnitOfMeasurement", "");
+            {
+                if (Degrees == "Metric")
+                {
+                    Preferences.Set("TempDegrees", "°C");
+                }
+                if (Degrees == "Imperial")
+                {
+                    Preferences.Set("TempDegrees", "°F");
+                }
+            }
         }
 
         private void WindUnitOfMeasurement_Toggled(object sender, ToggledEventArgs e)
         {
-            Preferences.Set("UnitOfMeasurementWind", (WindUnitOfMeasurement.IsToggled) ? "meters/sec" : "miles/hour");
+            Preferences.Set("UnitOfMeasurementWind", (WindUnitOfMeasurement.IsToggled) ? "miles/hour" : "meters/sec");
+        }
+
+        private void TwelveHourTime_Toggled(object sender, ToggledEventArgs e)
+        {
+            Preferences.Set("12Hour24HourTime", (TwelveHourTime.IsToggled) ? "HH:mm:ss" : "hh:mm:ss");
         }
     }
 }

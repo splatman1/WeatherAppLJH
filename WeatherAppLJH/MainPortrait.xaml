@@ -28,8 +28,7 @@
             <Frame  Grid.Row="0" Grid.Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3" BackgroundColor="#00000000" HeightRequest="150" Grid.RowSpan="2">
                 <StackLayout Spacing="0" Orientation="Vertical" HorizontalOptions="Start" >
                     <StackLayout Orientation="Horizontal">
-                        <Label x:Name="Temperature" Text="30" FontSize="40" TextColor="Black" VerticalTextAlignment="Start"/>
-                        <Label x:Name="UnitOfMeasurementCurrentTemp" Text="°C" FontSize="40" TextColor="Black"/>
+                        <Label x:Name="Temperature" Text="30" FontSize="40" TextColor="Black" VerticalTextAlignment="Start"/>                        
                     </StackLayout>
                     <StackLayout HorizontalOptions="Start" Orientation="Vertical" BackgroundColor="#00000000">
                         <Label x:Name="Forecast" Text="Sunny" FontSize="25" TextColor="Black" Margin="-5"/> 
@@ -40,8 +39,7 @@
                     <StackLayout Orientation="Horizontal" Margin="0">
                         <Label x:Name="MinimumTemperature" Text="17" TextColor="Black"/>
                         <Label x:Name="Symbol" Text="/" TextColor="Black"/>
-                        <Label x:Name="MaximumTemperature" Text="29" TextColor="Black"/>
-                        <Label x:Name="UnitOfMeasurementDayTemp" Text="°C" TextColor="Black"/>
+                        <Label x:Name="MaximumTemperature" Text="29" TextColor="Black"/>                        
                     </StackLayout>
                     <StackLayout Orientation="Vertical">
                         <Label Text="Feels Like" TextColor="White" Margin="0"/>

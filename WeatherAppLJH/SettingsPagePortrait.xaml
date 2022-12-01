@@ -36,18 +36,13 @@
                     <Label Text="°F" FontSize="20"/>
                 </StackLayout>
                 <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Label Text="Km/h"  FontSize="20"/>
+                    <Label Text="m/sec"  FontSize="20"/>
                     <Switch x:Name="WindUnitOfMeasurement" Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a" Toggled="WindUnitOfMeasurement_Toggled"/>
                     <Label Text="mph"  FontSize="20"/>
-                </StackLayout>
-                <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Label Text="mm" FontSize="20"/>
-                    <Switch Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a"/>
-                    <Label Text="inch" FontSize="20"/>
-                </StackLayout>
+                </StackLayout>                
                 <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                     <Label Text="12 hour" FontSize="20"/>
-                    <Switch Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a"/>
+                    <Switch x:Name="TwelveHourTime" Scale="2" OnColor="DarkSalmon" ThumbColor="#4a412a" Toggled="TwelveHourTime_Toggled" />
                     <Label Text="24 hour" FontSize="20"/>
                 </StackLayout>
             </StackLayout>
